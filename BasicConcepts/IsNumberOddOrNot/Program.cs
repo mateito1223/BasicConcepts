@@ -25,7 +25,7 @@ do
         Console.WriteLine("El valor ingresado no es un numero valido");
     }
 
- } while (numberString.ToLower() != "salir");
+} while (numberString.ToLower() != "salir");
 Console.WriteLine("Game Over");
 
 
