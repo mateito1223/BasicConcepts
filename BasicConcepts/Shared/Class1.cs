@@ -15,6 +15,41 @@ public static class ConsoleExtension
     }
 
 
+    public static float GetFloat(string message)
+    {
+        Console.Write(message);
+        var numberString = Console.ReadLine();
+        float numberFloat;
+        if (float.TryParse(numberString, out numberFloat))
+        {
+            return numberFloat;
+        }
+         return 0;
+
+    }
+
+    public static Decimal GetDecimal(string message)
+    {
+        Console.Write(message);
+        var numberString = Console.ReadLine();
+        if (decimal.TryParse(numberString, out decimal numberDecimal))
+        {
+            return numberDecimal;
+        }
+        return 0;
+
+    }
+
+
+    public static string? GetString(string message)
+    {
+        Console.Write(message);
+        var text = Console.ReadLine();
+        
+            return text;
+    }
+
+
     public static string? GetValidOptions(string message, List<string> options)
     {
         Console.Write(message);
