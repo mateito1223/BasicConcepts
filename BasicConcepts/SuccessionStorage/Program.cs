@@ -25,11 +25,11 @@ do
 
 
     Console.WriteLine($"\n*** CALCULOS ***");
-    Console.WriteLine($"Costos de almacenamiento: {(CA),3:C2} ");
-    Console.WriteLine($"Porcentaja de depreciación: {(PDP),0:C2} ");
-    Console.WriteLine($"Costo de exhibición: {(CE),7:C2} ");
-    Console.WriteLine($"Valor producto: {(VR_P),8:C2} ");
-    Console.WriteLine($"Valor venta: {(VR_V),9:C2} ");
+    Console.WriteLine($"Costos de almacenamiento: {CA,22:C2} ");
+    Console.WriteLine($"Porcentaja de depreciación: {PDP,21:P2} ");
+    Console.WriteLine($"Costo de exhibición: {CE,27:C2} ");
+    Console.WriteLine($"Valor producto: {VR_P,32:C2} ");
+    Console.WriteLine($"Valor venta: {VR_V,35:C2} ");
 
 
     do
