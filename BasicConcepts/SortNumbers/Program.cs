@@ -50,4 +50,3 @@ do
     }
 
 } while (true);
-Console.WriteLine("Game Over");
