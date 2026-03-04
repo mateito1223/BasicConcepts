@@ -47,6 +47,12 @@
   <Folder Name="/16/">
     <Project Path="QuadraticEcuations/QuadraticEcuations.csproj" Id="42fd3e38-9df0-4475-837a-feb24517a6ed" />
   </Folder>
+  <Folder Name="/17/">
+    <Project Path="SerieFibonacci/SerieFibonacci.csproj" Id="cb15c9b5-28ab-4163-bc33-8bb6953ca90b" />
+  </Folder>
+  <Folder Name="/18/">
+    <Project Path="FibonacciModified/FibonacciModified.csproj" Id="ad09d128-f01d-4bdf-b8af-bdd7baeb041a" />
+  </Folder>
   <Folder Name="/Shared/">
     <Project Path="Shared/Shared.csproj" Id="fc0f70e4-cd6d-4a62-a639-d4c98344bda6" />
   </Folder>
