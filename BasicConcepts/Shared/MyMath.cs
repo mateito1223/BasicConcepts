@@ -1,21 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Reflection.Metadata.Ecma335;
-using System.Text;
+﻿namespace Shared;
 
-namespace Shared
+public class MyMath
 {
-    public class MyMath
+    public static double Factorial(int n)
     {
-        public static double Factorial(int n)
-        {
         double factorial = 1;
         for (int i = 2; i <= n; i++)
-         {
+        {
             factorial *= i;
-         }
-        return factorial;
         }
-    }   
+        return factorial;
+    }
+
+
+    public static bool IsPrime(int n)
+    {
+        for (int i = 2; i <= Math.Sqrt(n); i++)
+        {
+            if (n % i == 0)
+                return false;
+        }
+        return true;
+    }
 }
 
