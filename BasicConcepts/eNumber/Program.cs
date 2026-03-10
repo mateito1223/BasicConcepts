@@ -9,7 +9,7 @@ do
     Console.BackgroundColor = ConsoleColor.Blue;
     Console.Clear();
     Console.WriteLine("CALCULO DEL NUMERO E");
-    var n = ConsoleExtension.GetInt("Cuantos terminos deseas procesar: ");
+    var n = ConsoleExtension.GetInt("Cuantos terminos de presicion quieres: ");
 
     // Do process
     var e = CalculateE(n);

@@ -62,6 +62,9 @@
   <Folder Name="/21/">
     <Project Path="eNumber/eNumber.csproj" Id="ee724039-b833-4961-8402-ac1c70db5c72" />
   </Folder>
+  <Folder Name="/22/">
+    <Project Path="PiNumber/PiNumber.csproj" Id="f0545f46-82e7-4cbd-abbf-f0394bc30110" />
+  </Folder>
   <Folder Name="/Shared/">
     <Project Path="Shared/Shared.csproj" Id="fc0f70e4-cd6d-4a62-a639-d4c98344bda6" />
   </Folder>
