@@ -65,6 +65,9 @@
   <Folder Name="/22/">
     <Project Path="PiNumber/PiNumber.csproj" Id="f0545f46-82e7-4cbd-abbf-f0394bc30110" />
   </Folder>
+  <Folder Name="/23/">
+    <Project Path="Calendary/Calendary.csproj" Id="6792307f-dd7f-4765-ab0c-3d73f4d58335" />
+  </Folder>
   <Folder Name="/Shared/">
     <Project Path="Shared/Shared.csproj" Id="fc0f70e4-cd6d-4a62-a639-d4c98344bda6" />
   </Folder>
