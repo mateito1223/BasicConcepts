@@ -68,6 +68,9 @@
   <Folder Name="/23/">
     <Project Path="Calendary/Calendary.csproj" Id="6792307f-dd7f-4765-ab0c-3d73f4d58335" />
   </Folder>
+  <Folder Name="/24/">
+    <Project Path="EvenAndOdds/EvenAndOdds.csproj" Id="0e7cfbb3-d120-43cb-8546-391ee7262428" />
+  </Folder>
   <Folder Name="/Shared/">
     <Project Path="Shared/Shared.csproj" Id="fc0f70e4-cd6d-4a62-a639-d4c98344bda6" />
   </Folder>
